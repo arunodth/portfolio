@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Contact() {
   const contacts = [
-    { label: 'Email', href: 'mailto:arunodth@example.com', text: 'arunodth@example.com', icon: '📧' },
+    { label: 'Email', href: 'mailto:arunodthdias@gmail.com', text: 'arunodthdias@gmail.com', icon: '📧' },
     { label: 'LinkedIn', href: 'https://linkedin.com/in/arunodth', text: 'linkedin.com/in/arunodth', icon: '💼' },
     { label: 'GitHub', href: 'https://github.com/arunodth', text: 'github.com/arunodth', icon: '🚀' }
   ];
@@ -18,6 +18,15 @@ export default function Contact() {
       
       <div className="glow-box rounded-lg p-8">
         <p className="text-gray-300 text-center mb-8 text-lg">Let's build the future together</p>
+        
+        <div className="mb-8 p-6 bg-cyan-400/5 rounded-lg border border-cyan-400/30">
+          <h3 className="text-cyan-300 font-bold mb-4">Quick Contact</h3>
+          <div className="space-y-2 text-gray-300">
+            <p className="flex items-center gap-3"><span className="text-xl">📍</span> Moratuwa, Sri Lanka</p>
+            <p className="flex items-center gap-3"><span className="text-xl">📞</span> +94 71 727 8363</p>
+          </div>
+        </div>
+
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {contacts.map((contact, idx) => (
             <a
@@ -39,7 +48,7 @@ export default function Contact() {
 
       <div className="text-center border-t border-cyan-400/30 pt-8">
         <p className="text-gray-500 font-mono text-sm">
-          &lt;/&gt; Built with React, Tailwind &amp; Futuristic Vision
+          &lt;/&gt; Built with React, Tailwind & Futuristic Vision
         </p>
       </div>
     </section>

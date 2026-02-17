@@ -14,10 +14,15 @@ export default function Header() {
         </div>
       </div>
       <p className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 via-purple-400 to-cyan-300 animate-pulse">
-        ⚡ Assistant Network Engineer | MSc Computer Science ⚡
+        ⚡ Cloud & Technical Operations Engineer ⚡
       </p>
-      <p className="text-gray-400 text-lg max-w-2xl mx-auto leading-relaxed">
-        Architecting the future of networks & web experiences
+      <div className="flex flex-wrap justify-center gap-4 text-gray-300">
+        <span className="flex items-center gap-2">📍 Moratuwa, Sri Lanka</span>
+        <span className="flex items-center gap-2">📞 +94 71 727 8363</span>
+        <span className="flex items-center gap-2">📧 arunodthdias@gmail.com</span>
+      </div>
+      <p className="text-gray-400 text-lg max-w-3xl mx-auto leading-relaxed">
+        4+ years IT experience | 2+ years Cloud/DevOps | AWS specialist | MSc in Network & Information Security
       </p>
     </section>
   );

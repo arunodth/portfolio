@@ -4,12 +4,14 @@ import About from './components/About';
 import Experience from './components/Experience';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
+import Education from './components/Education';
+import Certifications from './components/Certifications';
 import Contact from './components/Contact';
 import CloudNetwork from './components/CloudNetwork';
 import CyberParticles from './components/CyberParticles';
 
 function App() {
-  const sections = ['about', 'experience', 'skills', 'projects', 'contact'];
+  const sections = ['about', 'experience', 'skills', 'projects', 'education', 'certifications', 'contact'];
 
   return (
     <div className="relative min-h-screen bg-black text-white overflow-x-hidden">
@@ -26,12 +28,12 @@ function App() {
               ARUNODTH
             </span>
           </div>
-          <div className="flex justify-center space-x-1 md:space-x-4 flex-wrap">
+          <div className="flex justify-center space-x-1 md:space-x-3 flex-wrap gap-1">
             {sections.map(section => (
               <a
                 key={section}
                 href={`#${section}`}
-                className="px-3 py-2 text-sm md:text-base font-semibold text-cyan-400 hover:text-white transition-all duration-200 hover:bg-cyan-400/10 rounded-md border border-transparent hover:border-cyan-400/50 underline-animation"
+                className="px-2 md:px-3 py-2 text-xs md:text-sm font-semibold text-cyan-400 hover:text-white transition-all duration-200 hover:bg-cyan-400/10 rounded-md border border-transparent hover:border-cyan-400/50 underline-animation"
               >
                 {section.charAt(0).toUpperCase() + section.slice(1)}
               </a>
@@ -47,6 +49,8 @@ function App() {
         <Experience id="experience" />
         <Skills id="skills" />
         <Projects id="projects" />
+        <Education id="education" />
+        <Certifications id="certifications" />
         <Contact id="contact" />
       </div>
     </div>

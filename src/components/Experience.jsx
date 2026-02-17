@@ -3,16 +3,34 @@ import React from 'react';
 export default function Experience() {
   const experiences = [
     {
-      role: 'Assistant Network Engineer',
-      company: '247 Techies Pvt Ltd',
-      period: 'PRESENT',
-      desc: 'Managing enterprise network infrastructure, security monitoring, threat detection, and advanced troubleshooting'
+      role: 'Technical Operations Engineering Consultant',
+      company: 'Liveroom Technologies',
+      period: '01-2026 – Present',
+      desc: 'Production support for enterprise platforms | Incident troubleshooting & SLA management | RCA and preventive fixes | Release management & deployments | API & integrations support | Monitoring logs & alerts'
     },
     {
-      role: 'Trainee Technical Support Specialist',
-      company: 'Ernst & Young',
-      period: 'PAST',
-      desc: 'AI & data analytics service line - automated threat detection and cloud infrastructure management'
+      role: 'TechOps Engineer / DevOps Engineer',
+      company: 'Liveroom Technologies (KAST Sub-Contractor)',
+      period: '04-2025 – 12-2025',
+      desc: 'Managed AWS infrastructure (EC2, S3, VPC, OpenSearch) | CloudWatch, Prometheus, Grafana monitoring | CI/CD automation (Jenkins, GitHub Actions) | Infrastructure as Code (Terraform/CloudFormation) | 24/7 on-call support | Disaster Recovery & IAM governance | Integrated Sumsub KYC system'
+    },
+    {
+      role: 'Associate Systems Engineer',
+      company: 'Asian Trademade',
+      period: '07-2024 – 03-2025',
+      desc: 'LAN/WAN, switches, routers, firewalls configuration | L1 & L2 technical support | Patch management & system upgrades | Root cause analysis | Infrastructure reliability & documentation'
+    },
+    {
+      role: 'Intern – Technology Consulting',
+      company: 'Ernst & Young (EY)',
+      period: '01-2024 – 07-2024',
+      desc: 'IT audit & ERP analytics | RPA development (UiPath) | Python automation | Power BI / Excel analytics | Application control & audit reporting | AI & automation exposure'
+    },
+    {
+      role: 'Junior IT Support Engineer',
+      company: 'Asian Trademade',
+      period: '03-2022 – 01-2024',
+      desc: 'L1 technical support & user-facing issues | LAN/Wi-Fi troubleshooting | User provisioning & access control | System maintenance & patching | SLA ticket management'
     }
   ];
 
@@ -34,11 +52,11 @@ export default function Experience() {
                 </h3>
                 <p className="text-purple-400 font-semibold">{exp.company}</p>
               </div>
-              <span className="px-3 py-1 bg-cyan-400/20 text-cyan-300 text-sm font-mono rounded border border-cyan-400/50">
+              <span className="px-3 py-1 bg-cyan-400/20 text-cyan-300 text-sm font-mono rounded border border-cyan-400/50 whitespace-nowrap">
                 {exp.period}
               </span>
             </div>
-            <p className="text-gray-300 leading-relaxed">{exp.desc}</p>
+            <p className="text-gray-300 leading-relaxed text-sm md:text-base">{exp.desc}</p>
           </div>
         ))}
       </div>
