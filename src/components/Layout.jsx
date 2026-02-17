@@ -14,7 +14,8 @@ export default function Layout({ children, theme = THEMES.home }) {
     { label: 'Projects', path: '/projects', themeKey: 'projects' },
     { label: 'Education', path: '/education', themeKey: 'education' },
     { label: 'Certifications', path: '/certifications', themeKey: 'certifications' },
-    { label: 'Contact', path: '/contact', themeKey: 'contact' }
+    { label: 'Contact', path: '/contact', themeKey: 'contact' },
+    { label: 'Enquiries', path: '/enquiries', themeKey: 'contact' }
   ];
 
   const getNavTheme = (item) => THEMES[item.themeKey];
