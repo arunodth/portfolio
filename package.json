@@ -11,14 +11,15 @@
   "dependencies": {
     "@react-three/drei": "^9.122.0",
     "@react-three/fiber": "^8.18.0",
+    "@tsparticles/engine": "^3.9.1",
+    "@tsparticles/react": "^3.0.0",
     "framer-motion": "^12.34.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-native-web": "^0.21.0",
     "react-router-dom": "^7.13.0",
-    "react-tsparticles": "^2.12.2",
     "three": "^0.182.0",
-    "tsparticles": "^3.9.1"
+    "three-mesh-bvh": "^0.9.9"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.2.0",
